@@ -34,3 +34,4 @@ jobs:
           heroku_email: "gabrielhgiraldo@gmail.com"
           healthcheck: 'https://fullstackopen-pokedex.herokuapp.com/health'
           checkstring: 'ok'
+          rollbackonhealthcheckfailed: true
